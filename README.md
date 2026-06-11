@@ -15,7 +15,7 @@ My personal dotfiles, managed with symlinks.
 
 ## Setup
 
-Clone the repo, then create symlinks manually or use a dotfile manager like [chezmoi](https://www.chezmoi.io/).
+Clone the repo, then create symlinks manually or you could use a dotfile manager like [chezmoi](https://www.chezmoi.io/).
 
 **Windows:**
 ```powershell

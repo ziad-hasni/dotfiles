@@ -1,4 +1,5 @@
 [core]
+    autoclrf = input
     editor = nvim
     pager = delta
 

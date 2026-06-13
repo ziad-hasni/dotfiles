@@ -3,4 +3,7 @@ oh-my-posh init pwsh --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob
 
 function cdotfiles { cd "$env:USERPROFILE\.dotfiles" }
 function vimconf { nvim "$env:USERPROFILE\.dotfiles\nvim\init.lua" }
-function reload { . $PROFILE }
+
+function msys {
+    wt -w 0 nt --profile "UCRT64 / MSYS2" --startingDirectory (Get-Location).Path
+}
